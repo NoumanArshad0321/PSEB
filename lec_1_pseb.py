@@ -4,8 +4,8 @@ print("Name:", name)
 print("Age:", Age)
 
 
-# def add_numbers(a, b):
-#     return a + b
+def add_numbers(a, b):
+    return a + b
 
-# result = add_numbers(5, 3)
-# print("Sum:", result)
+result = add_numbers(5, 3)
+print("Sum:", result)
