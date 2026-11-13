@@ -56,3 +56,28 @@ print("reminder:", x % y)  # Modulus
 
 
 print("Exponentiation:", x ** y)  # Exponentiation
+
+
+
+
+
+# Type Conversion
+num_str = "42"
+num_int = int(num_str)  # Convert string to integer
+print("Converted Integer:", num_int)
+print
+
+
+
+# convert integer to string
+num_int = 42        
+num_str = str(num_int)  
+print("Converted String:", num_str)
+print("Type of num_str:", type(num_str))  # Output: <class 'str'>
+
+
+# convert float to integer
+num_float = 3.14
+num_int = int(num_float) 
+print("Converted Integer from Float:", num_int)
+print("Type of num_int:", type(num_int))  # Output: <class 'int'>
