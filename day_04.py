@@ -28,3 +28,31 @@ students = {"Alice": 85, "Bob": 90, "Charlie": 78}
 print("Students:", students)
 students["Alice"] = 88  # Updating Alice's grade
 print("Updated Students:", students)
+
+
+
+
+# Arithmetic Operations
+x = 10  
+y = 5
+z = x + y  # Addition
+print("Sum:", z)
+
+# Subtraction
+z = x - y
+print("Difference:", z)
+
+# Multiplication
+z = x * y
+print("Product:", z)
+
+# Division
+z = x / y
+print("Quotient:", z)
+
+
+
+print("reminder:", x % y)  # Modulus
+
+
+print("Exponentiation:", x ** y)  # Exponentiation
