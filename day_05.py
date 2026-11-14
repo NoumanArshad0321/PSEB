@@ -50,8 +50,10 @@ print("Student Name with 'John' Replaced by 'Jane': " + student_name.replace("Jo
 print("**********************************  for Count   **********************************")
 print("Number of occurrences of 'o' in Student Name: " + str(student_name.count("o")))  # Output: 2 (counts occurrences of a substring)
 print("**********************************  for Index   **********************************")
-print("Index of Substring 'Doe': " + str(student_name.index("Doe")))  # Output: 5 (returns the index of the substring, raises ValueError if not found)
-
+print("Index of Substring 'Doe': " + str(student_name.index("Doe")))
+print("**********************************  for Join   **********************************")
+fruits = ["apple", "banana", "cherry"]  
+print(" ".join(fruits)) 
 
 # find and index methods are similar, but find returns -1 if the substring is not found, while index raises a ValueError.
 
@@ -68,3 +70,13 @@ print("**********************************  for accessing last character   ******
 print("Last character of Student Name: " + student_name[-1])  # Output: e (accesses the last character of the string)
 print("**********************************  for accessing last without -1 or not specifing end   **********************************")
 print("Last character of Student Name: " + student_name[len(student_name)-1])  # Output: e (accesses the last character of the string)
+
+
+
+
+
+
+# for fromatting strings we can use f-strings which is available in python 3.6 and above. It is a more readable and concise way to format strings.
+name = "Alice"
+age = 30
+print(f"Name: {name}, Age: {age}")  # Output: Name: Alice, Age: 30
