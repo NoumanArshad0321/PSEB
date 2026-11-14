@@ -55,7 +55,7 @@ print("Hexadecimal of 10:", hex(10))  # Output: 0xa
 
 print(int("1010", 2))  # Output: 10 (binary to decimal)
 print(int("12", 8))    # Output: 10 (octal to decimal)
-print(int("a", 16))    # Output: 10 (hexadecimal to decimal
+print(int("a", 16))    # Output: 10 (hexadecimal to decimal)
 
 a={1,2,3,4,5}
 b={4,5,6,7,8}
@@ -63,3 +63,11 @@ print(a|b)
 print(a&b)
 print(a-b)
 print(a^b)
+
+
+
+name = "Alice"
+
+print(name[::-1])
+
+print("Pakistan"[2:6])  # Output: kist
