@@ -2,6 +2,9 @@
 
 
 # String Methods in Python
+from random import random
+
+
 student_name = "John Doe"
 print("Student Name: " + student_name)  # Output: Student Name: John Doe
 print("**********************************  for Uppercase   **********************************")
@@ -80,3 +83,32 @@ print("Last character of Student Name: " + student_name[len(student_name)-1])  #
 name = "Alice"
 age = 30
 print(f"Name: {name}, Age: {age}")  # Output: Name: Alice, Age: 30
+
+
+age = input("Enter your age: ")
+
+if age>= "18":
+    print(f"Hence your age is {age} you are eligible to get a driver's license")
+else:
+    print(f"Hence your age is {age} you are not eligible to get a driver's license")
+
+
+print ("**********************************  for String Formatting using format() method   **********************************")
+
+
+print("Name: {}, Age: {}".format(name, age))  # Output: Name: Alice, Age: 30
+
+
+
+print ("**********************************  for use of Random choice   **********************************")
+
+import random
+
+fruits = ["apple", "banana", "cherry"]
+print("Random fruit: ",random.choice(fruits))  # Output: Random fruit: (one of the fruits in the list)
+
+
+
+print ("**********************************  for use of shuffle   **********************************")
+random.shuffle(fruits)
+print("Shuffled fruits: " + str(fruits))  # Output: Shuffled fruits: (the fruits in a random order)
