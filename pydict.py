@@ -74,3 +74,13 @@ users = {
 
 
 
+
+
+for user_id, user in users.items():
+    print("ID:", user_id)
+    print("Name:", user["name"])
+    print("Username:", user["username"])
+    print("Email:", user["email"])
+    print("City:", user["address"]["city"])
+    print("Company:", user["company"]["name"])
+    print("--------------------")
