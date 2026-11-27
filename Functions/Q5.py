@@ -15,4 +15,4 @@ print(discount(2000))
 # addition = lambda a,b:a+b
 
 
-# print(addition(2,2))
+# print(addition(2,6))
